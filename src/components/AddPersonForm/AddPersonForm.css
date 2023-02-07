@@ -1,0 +1,28 @@
+.br-add-person-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.br-add-person-form__submit-btn {
+  color: white;
+  box-shadow: 0 1px 2px rgb(29 41 57 / 10%);
+  border-color: #0098a5;
+  background-color: #0098a5;
+  font-size: 20px;
+  font-family: "Lato, Bold";
+  border-radius: 4px;
+  text-shadow: none;
+  margin-left: 20px;
+  padding: 3px 20px;
+  cursor: pointer;
+}
+
+.br-add-person-form input {
+  height: 100%;
+  max-height: 30px;
+  width: 50%;
+  border-radius: 4px;
+  border: 1px solid #d0d5dd;
+  padding: 8px 10px;
+}

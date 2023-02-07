@@ -1,0 +1,17 @@
+.br-contacts-list li {
+  text-align: start;
+}
+
+.br-contacts-list button {
+  background-color: red;
+  box-shadow: 0 1px 2px rgb(29 41 57 / 10%);
+  border-color: red;
+  color: white;
+  font-size: 12px;
+  font-family: "Lato, Bold";
+  border-radius: 4px;
+  text-shadow: none;
+  margin-left: 20px;
+  padding: 3px 5px;
+  cursor: pointer;
+}

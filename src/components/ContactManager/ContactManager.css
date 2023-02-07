@@ -1,0 +1,4 @@
+.br-contact-manager-container {
+  display: flex;
+  flex-direction: column;
+}
