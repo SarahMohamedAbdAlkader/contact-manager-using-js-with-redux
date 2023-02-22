@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { configureStore } from '@reduxjs/toolkit'
+import { createStore } from 'redux'
 import { reducer } from "../../reducers/appReducer";
 
 import AddPersonForm from "../AddPersonForm/AddPersonForm";
@@ -8,7 +8,7 @@ import ContactsList from "../ContactsList/ContactsList";
 
 import "./ContactManager.css";
 
-const store = configureStore({ reducer })
+const store = createStore( reducer )
 
 export default function ContactManager() {
   return (
